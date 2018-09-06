@@ -1,4 +1,4 @@
-# Employee DEMO ทำขำๆ 
+# Employee DEMO
 ระบบเก็บบันทึก profile ของพนักงาน โดยใช้ METEOR เป็น web application framework
 
 ## ขั้นตอนก่อนทำทำงาน
