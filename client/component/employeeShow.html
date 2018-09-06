@@ -1,0 +1,42 @@
+<template name="employee_show">
+    <div class="row">
+        <form class="col s12 new-task">
+            <!-- Employee id -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input disabled id="empid" type="text" value="{{employee.empid}}">
+                    <label for="empid" class="active">Employee ID</label>
+                </div>
+            </div>
+            <!-- Employee Name -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input disabled id="name" type="text" value="{{employee.name}}">
+                    <label for="name" class="active">Employee Name</label>
+                </div>
+            </div>
+            <!-- Age -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input disabled id="age" type="text" value="{{employee.age}}">
+                    <label for="age" class="active">Age</label>
+                </div>
+            </div>
+            <!-- Telephone -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input disabled id="telephone" type="text" value="{{employee.telephone}}">
+                    <label for="telephone" class="active">Telephone</label>
+                </div>
+            </div>
+            <!-- Back to home -->
+            <div class="row">
+                <a class="waves-effect waves-light btn" href="/">Back</a>
+                {{#if currentUser}}
+                <a class="waves-effect waves-light btn blue"  href="/employee-edit/{{employee._id}}">Edit</a>
+                {{/if}}
+            </div>
+        </form>
+
+    </div>
+</template>

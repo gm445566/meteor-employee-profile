@@ -1,0 +1,33 @@
+<template name="list">
+
+    <table class="highlight">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Telephone</th>
+                <th>Creator</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each employees}}
+            {{> emp_list}}
+            {{/each}}
+        </tbody>
+    </table>
+   
+</template>
+
+<template name="emp_list">
+    <tr>
+        <td> <span class="show"> <a href="/employee/{{_id}}">{{empid}}</a></span></td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+        <td>{{telephone}}</td>
+        <td>{{username}}</td>
+        <td> {{#if currentUser}} <a href="#modal1" class="modal-trigger" style=" color:inherit;text-decoration: none;"><i class="material-icons delete">delete</i></a>
+        {{/if}}</td>
+    </tr>
+</template>

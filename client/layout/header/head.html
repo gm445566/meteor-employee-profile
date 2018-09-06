@@ -1,0 +1,15 @@
+<template name="head">
+    <nav class="space-left">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo">Employee DEMO</a>
+           
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!-- menu here -->
+                {{> loginButtons}}
+                {{#if currentUser}}
+                <a href="" class="waves-effect waves-light btn-small">New</a>  
+                {{/if}}              
+            </ul>
+        </div>
+    </nav>
+</template>

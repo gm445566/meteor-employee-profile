@@ -1,0 +1,42 @@
+<template name="employee_edit">
+        <div class="row">
+            <form class="col s12 new-task">
+                <!-- Employee id -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input  id="empid" type="text" value="{{employee.empid}}">
+                        <label for="empid" class="active">Employee ID</label>
+                    </div>
+                </div>
+                <!-- Employee Name -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input  id="name" type="text" value="{{employee.name}}">
+                        <label for="name" class="active">Employee Name</label>
+                    </div>
+                </div>
+                <!-- Age -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input  id="age" type="text" value="{{employee.age}}">
+                        <label for="age" class="active">Age</label>
+                    </div>
+                </div>
+                <!-- Telephone -->
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input  id="telephone" type="text" value="{{employee.telephone}}">
+                        <label for="telephone" class="active">Telephone</label>
+                    </div>
+                </div>
+                <!-- Back to home -->
+                <div class="row">
+                    <a class="waves-effect waves-light btn" href="/">Back</a>
+                    <button class="btn waves-effect waves-light blue update-emp" type="submit" name="action" >Update
+                            <i class="material-icons right">send</i>
+                        </button>    
+                </div>
+            </form>
+    
+        </div>
+    </template>

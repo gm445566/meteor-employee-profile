@@ -1,0 +1,17 @@
+<body>
+    <div class="container">
+        {{> head}}
+
+        <!-- ยังทำไม่เสร็จ -->
+        <!--  <div class="space-top">
+            {{> search}} {{> dynamic_template}}
+        </div> -->
+    </div>
+</body>
+
+<template name="dynamic_template">
+    <div class="container">
+        {{> Template.dynamic template=main}}
+    </div>
+
+</template>

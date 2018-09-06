@@ -1,0 +1,16 @@
+body {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.space-left {
+    padding-left: 1rem;
+}
+
+.space-right {
+    padding-right: 1rem;
+}
+
+.space-top {
+    padding-top: 2rem;
+}
