@@ -5,7 +5,7 @@
 
 1. ต้อง install framework METEOR ก่อน โดยเข้าได้ *download* ได้ [ที่นี่](https://www.meteor.com/install)
 
-2. clone หรือ download source code นี้แล้ว ให้เข้าไป ที่ folder ของ app นี้แล้ว run **"meteor "**
+2. clone หรือ download source code นี้แล้ว ให้เข้าไป ที่ folder ของ app นี้แล้ว run **"meteor npm install "**
 
 ## ส่วนประกอบของ source code
 
